@@ -113,7 +113,7 @@ function minimax(newBoard, player) {
     }
 
     newBoard[availSpots[i]] = move.index;
-console.log(move);
+
     moves.push(move);
   }
 
